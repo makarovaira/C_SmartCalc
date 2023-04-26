@@ -70,7 +70,7 @@ s21_smart_calc.o:
 
 check-linters:
 	cp ../materials/linters/.clang-format .
-	clang-format -n *.c *.h *.c
+	clang-format -n *.c *.h *.cpp
 	rm -f .clang-format
 
 clean_obj:
